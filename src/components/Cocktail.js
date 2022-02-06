@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Cocktail = ({ image, name, id, info, glass }) => {
   return (
-    <articlec className="cocktail">
+    <article className="cocktail">
       <div className="img-container">
         <img src={image} alt={name} />
       </div>
@@ -15,7 +15,7 @@ const Cocktail = ({ image, name, id, info, glass }) => {
           details
         </Link>
       </div>
-    </articlec>
+    </article>
   )
 }
 
