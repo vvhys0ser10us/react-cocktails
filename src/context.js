@@ -20,7 +20,7 @@ const AppProvider = ({ children }) => {
           return {
             id: item.idDrink,
             name: item.strDrink,
-            imgage: item.strDrinkThumb,
+            image: item.strDrinkThumb,
             info: item.strAlcoholic,
             glass: item.strGlass,
           }
